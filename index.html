@@ -2,157 +2,15 @@
 <html lang="pt-BR">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Aura | Moda Feminina</title>
+<title>AURA</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
-
-body{
-
-background:#faf7f5;
-color:#222;
-
-}
-
-header{
-
-position:fixed;
-top:0;
-left:0;
-width:100%;
-background:white;
-padding:20px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-box-shadow:0 5px 20px rgba(0,0,0,.05);
-z-index:999;
-
-}
-
-.logo{
-
-font-size:32px;
-font-weight:700;
-letter-spacing:2px;
-
-}
-
-nav a{
-
-text-decoration:none;
-color:#222;
-margin-left:35px;
-font-weight:500;
-transition:.3s;
-
-}
-
-nav a:hover{
-
-color:#d39a7b;
-
-}
-
-.hero{
-
-height:100vh;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
-padding:0 30px;
-
-background:linear-gradient(135deg,#ffffff,#f6efea);
-
-}
-
-.hero h1{
-
-font-size:70px;
-
-margin-bottom:20px;
-
-}
-
-.hero p{
-
-font-size:22px;
-
-max-width:700px;
-
-margin:auto;
-
-color:#666;
-
-line-height:1.7;
-
-}
-
-.botao{
-
-display:inline-block;
-
-margin-top:40px;
-
-padding:18px 45px;
-
-background:#222;
-
-color:white;
-
-border-radius:50px;
-
-text-decoration:none;
-
-font-size:18px;
-
-transition:.3s;
-
-}
-
-.botao:hover{
-
-background:#d39a7b;
-
-}
-
-section{
-
-padding:110px 8%;
-
-}
-
-.titulo{
-
-text-align:center;
-
-font-size:42px;
-
-margin-bottom:70px;
-
-}
-
-</style>
 
 </head>
 
@@ -160,17 +18,15 @@ margin-bottom:70px;
 
 <header>
 
-<div class="logo">AURA</div>
+<div class="logo">
+AURA
+</div>
 
 <nav>
 
-<a href="#">Home</a>
+<a href="#colecao">Coleção</a>
 
-<a href="#">Coleção</a>
-
-<a href="#">Sobre</a>
-
-<a href="#">Contato</a>
+<a href="#sobre">Sobre</a>
 
 </nav>
 
@@ -178,31 +34,89 @@ margin-bottom:70px;
 
 <section class="hero">
 
-<div>
+<div class="hero-texto">
 
-<h1>Vista sua melhor versão.</h1>
+<h1>
+Looks que você vai querer usar todos os dias.
+</h1>
 
 <p>
 
-Moda feminina minimalista, elegante e criada para mulheres que gostam de se sentir bonitas todos os dias.
+Peças escolhidas para mulheres que gostam de estilo, conforto e elegância.
 
 </p>
 
-<a href="#" class="botao">Ver coleção</a>
+<a href="#colecao" class="botao">
+
+Ver coleção
+
+</a>
+
+</div>
+
+<div class="hero-imagem">
+
+<img src="images/hero.jpg" alt="Aura">
 
 </div>
 
 </section>
 
-<section>
+<section id="colecao">
 
-<h2 class="titulo">
+<h2>Nossa coleção</h2>
 
-Mais Vendidas
+<div class="produtos">
 
-</h2>
+</div>
 
 </section>
+
+<section id="sobre">
+
+<h2>Por que escolher a Aura?</h2>
+
+<div class="vantagens">
+
+<div>
+
+✨
+
+<h3>Estilo moderno</h3>
+
+</div>
+
+<div>
+
+📦
+
+<h3>Compra segura pela Shopee</h3>
+
+</div>
+
+<div>
+
+🤍
+
+<h3>Peças escolhidas com carinho</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Aura
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 
